@@ -1,0 +1,321 @@
+<!-- Stats Overview -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-6">
+          <div class="card bg-white rounded-lg p-6 stat-card border-l-success">
+            <div class="flex items-center">
+              <div class="p-3 rounded-full bg-green-100 text-success">
+                <i class="fas fa-user-injured text-2xl"></i>
+              </div>
+              <div class="ml-4">
+                <h3 class="text-2xl font-bold text-dark">1,248</h3>
+                <p class="text-gray-500">Total Patients</p>
+              </div>
+            </div>
+            <div class="mt-4">
+              <span class="text-success text-sm font-medium"><i class="fas fa-arrow-up"></i> 12.5%</span>
+              <span class="text-gray-500 text-sm ml-2">Since last month</span>
+            </div>
+          </div>
+          
+          <div class="card bg-white rounded-lg p-6 stat-card border-l-primary">
+            <div class="flex items-center">
+              <div class="p-3 rounded-full bg-blue-100 text-primary">
+                <i class="fas fa-stethoscope text-2xl"></i>
+              </div>
+              <div class="ml-4">
+                <h3 class="text-2xl font-bold text-dark">64</h3>
+                <p class="text-gray-500">Doctors Available</p>
+              </div>
+            </div>
+            <div class="mt-4">
+              <span class="text-success text-sm font-medium"><i class="fas fa-arrow-up"></i> 5.2%</span>
+              <span class="text-gray-500 text-sm ml-2">Since last month</span>
+            </div>
+          </div>
+          
+          <div class="card bg-white rounded-lg p-6 stat-card border-l-warning">
+            <div class="flex items-center">
+              <div class="p-3 rounded-full bg-yellow-100 text-warning">
+                <i class="fas fa-calendar-check text-2xl"></i>
+              </div>
+              <div class="ml-4">
+                <h3 class="text-2xl font-bold text-dark">328</h3>
+                <p class="text-gray-500">Appointments</p>
+              </div>
+            </div>
+            <div class="mt-4">
+              <span class="text-danger text-sm font-medium"><i class="fas fa-arrow-down"></i> 3.4%</span>
+              <span class="text-gray-500 text-sm ml-2">Since last month</span>
+            </div>
+          </div>
+          
+          <div class="card bg-white rounded-lg p-6 stat-card border-l-info">
+            <div class="flex items-center">
+              <div class="p-3 rounded-full bg-cyan-100 text-info">
+                <i class="fas fa-procedures text-2xl"></i>
+              </div>
+              <div class="ml-4">
+                <h3 class="text-2xl font-bold text-dark">42</h3>
+                <p class="text-gray-500">Operations</p>
+              </div>
+            </div>
+            <div class="mt-4">
+              <span class="text-success text-sm font-medium"><i class="fas fa-arrow-up"></i> 7.8%</span>
+              <span class="text-gray-500 text-sm ml-2">Since last month</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-6">
+          <!-- Recent Appointments -->
+          <div class="lg:col-span-2">
+            <div class="card bg-white rounded-lg p-6">
+              <div class="flex justify-between items-center mb-6">
+                <h3 class="text-lg font-semibold text-dark">Recent Appointments</h3>
+                <button class="text-primary text-sm font-medium">View All</button>
+              </div>
+              
+              <div class="overflow-x-auto">
+                <table class="w-full">
+                  <thead>
+                    <tr class="text-left border-b text-gray-500 text-sm">
+                      <th class="pb-3">Patient</th>
+                      <th class="pb-3">Doctor</th>
+                      <th class="pb-3">Date</th>
+                      <th class="pb-3">Status</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="border-b text-sm">
+                      <td class="py-4">John Smith</td>
+                      <td class="py-4">Dr. Emily Brown</td>
+                      <td class="py-4">15 Sep 2023</td>
+                      <td class="py-4"><span class="px-2 py-1 bg-green-100 text-success rounded-full text-xs">Completed</span></td>
+                    </tr>
+                    <tr class="border-b text-sm">
+                      <td class="py-4">Maria Garcia</td>
+                      <td class="py-4">Dr. Michael Lee</td>
+                      <td class="py-4">16 Sep 2023</td>
+                      <td class="py-4"><span class="px-2 py-1 bg-blue-100 text-primary rounded-full text-xs">Scheduled</span></td>
+                    </tr>
+                    <tr class="border-b text-sm">
+                      <td class="py-4">Robert Johnson</td>
+                      <td class="py-4">Dr. Sarah Wilson</td>
+                      <td class="py-4">16 Sep 2023</td>
+                      <td class="py-4"><span class="px-2 py-1 bg-yellow-100 text-warning rounded-full text-xs">Pending</span></td>
+                    </tr>
+                    <tr class="text-sm">
+                      <td class="py-4">Lisa Anderson</td>
+                      <td class="py-4">Dr. James Taylor</td>
+                      <td class="py-4">17 Sep 2023</td>
+                      <td class="py-4"><span class="px-2 py-1 bg-blue-100 text-primary rounded-full text-xs">Scheduled</span></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Top Doctors -->
+          <div>
+            <div class="card bg-white rounded-lg p-6">
+              <div class="flex justify-between items-center mb-6">
+                <h3 class="text-lg font-semibold text-dark">Top Doctors</h3>
+                <button class="text-primary text-sm font-medium">View All</button>
+              </div>
+              
+              <div class="space-y-4">
+                <div class="flex items-center">
+                  <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center">
+                    <i class="fas fa-user-md text-primary text-xl"></i>
+                  </div>
+                  <div class="ml-4">
+                    <h4 class="font-medium text-dark">Dr. Michael Lee</h4>
+                    <p class="text-sm text-gray-500">Cardiology</p>
+                  </div>
+                  <div class="ml-auto">
+                    <span class="px-2 py-1 bg-green-100 text-success rounded-full text-xs">Available</span>
+                  </div>
+                </div>
+                
+                <div class="flex items-center">
+                  <div class="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center">
+                    <i class="fas fa-user-md text-success text-xl"></i>
+                  </div>
+                  <div class="ml-4">
+                    <h4 class="font-medium text-dark">Dr. Sarah Wilson</h4>
+                    <p class="text-sm text-gray-500">Neurology</p>
+                  </div>
+                  <div class="ml-auto">
+                    <span class="px-2 py-1 bg-green-100 text-success rounded-full text-xs">Available</span>
+                  </div>
+                </div>
+                
+                <div class="flex items-center">
+                  <div class="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center">
+                    <i class="fas fa-user-md text-purple-500 text-xl"></i>
+                  </div>
+                  <div class="ml-4">
+                    <h4 class="font-medium text-dark">Dr. James Taylor</h4>
+                    <p class="text-sm text-gray-500">Pediatrics</p>
+                  </div>
+                  <div class="ml-auto">
+                    <span class="px-2 py-1 bg-red-100 text-danger rounded-full text-xs">On Leave</span>
+                  </div>
+                </div>
+                
+                <div class="flex items-center">
+                  <div class="w-12 h-12 rounded-full bg-yellow-100 flex items-center justify-center">
+                    <i class="fas fa-user-md text-warning text-xl"></i>
+                  </div>
+                  <div class="ml-4">
+                    <h4 class="font-medium text-dark">Dr. Emily Brown</h4>
+                    <p class="text-sm text-gray-500">Orthopedics</p>
+                  </div>
+                  <div class="ml-auto">
+                    <span class="px-2 py-1 bg-green-100 text-success rounded-full text-xs">Available</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Recent Patients & Calendar -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          <!-- Recent Patients -->
+          <div class="lg:col-span-2">
+            <div class="card bg-white rounded-lg p-6">
+              <div class="flex justify-between items-center mb-6">
+                <h3 class="text-lg font-semibold text-dark">Recent Patients</h3>
+                <button class="text-primary text-sm font-medium">View All</button>
+              </div>
+              
+              <div class="overflow-x-auto">
+                <table class="w-full">
+                  <thead>
+                    <tr class="text-left border-b text-gray-500 text-sm">
+                      <th class="pb-3">Patient</th>
+                      <th class="pb-3">Condition</th>
+                      <th class="pb-3">Admit Date</th>
+                      <th class="pb-3">Status</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="border-b text-sm">
+                      <td class="py-4">
+                        <div class="flex items-center">
+                          <div class="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center">
+                            <i class="fas fa-user text-primary text-sm"></i>
+                          </div>
+                          <span class="ml-2">John Smith</span>
+                        </div>
+                      </td>
+                      <td class="py-4">Fever</td>
+                      <td class="py-4">12 Sep 2023</td>
+                      <td class="py-4"><span class="px-2 py-1 bg-green-100 text-success rounded-full text-xs">Discharged</span></td>
+                    </tr>
+                    <tr class="border-b text-sm">
+                      <td class="py-4">
+                        <div class="flex items-center">
+                          <div class="w-8 h-8 rounded-full bg-green-100 flex items-center justify-center">
+                            <i class="fas fa-user text-success text-sm"></i>
+                          </div>
+                          <span class="ml-2">Maria Garcia</span>
+                        </div>
+                      </td>
+                      <td class="py-4">Fracture</td>
+                      <td class="py-4">13 Sep 2023</td>
+                      <td class="py-4"><span class="px-2 py-1 bg-blue-100 text-primary rounded-full text-xs">Admitted</span></td>
+                    </tr>
+                    <tr class="border-b text-sm">
+                      <td class="py-4">
+                        <div class="flex items-center">
+                          <div class="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center">
+                            <i class="fas fa-user text-purple-500 text-sm"></i>
+                          </div>
+                          <span class="ml-2">Robert Johnson</span>
+                        </div>
+                      </td>
+                      <td class="py-4">Diabetes</td>
+                      <td class="py-4">14 Sep 2023</td>
+                      <td class="py-4"><span class="px-2 py-1 bg-blue-100 text-primary rounded-full text-xs">Admitted</span></td>
+                    </tr>
+                    <tr class="text-sm">
+                      <td class="py-4">
+                        <div class="flex items-center">
+                          <div class="w-8 h-8 rounded-full bg-yellow-100 flex items-center justify-center">
+                            <i class="fas fa-user text-warning text-sm"></i>
+                          </div>
+                          <span class="ml-2">Lisa Anderson</span>
+                        </div>
+                      </td>
+                      <td class="py-4">Migraine</td>
+                      <td class="py-4">15 Sep 2023</td>
+                      <td class="py-4"><span class="px-2 py-1 bg-green-100 text-success rounded-full text-xs">Discharged</span></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Upcoming Events -->
+          <div>
+            <div class="card bg-white rounded-lg p-6">
+              <div class="flex justify-between items-center mb-6">
+                <h3 class="text-lg font-semibold text-dark">Upcoming Events</h3>
+                <button class="text-primary text-sm font-medium">View All</button>
+              </div>
+              
+              <div class="space-y-4">
+                <div class="p-3 bg-blue-50 rounded-lg">
+                  <div class="flex items-center">
+                    <div class="w-12 h-12 rounded-lg bg-primary flex items-center justify-center">
+                      <i class="fas fa-brain text-white text-xl"></i>
+                    </div>
+                    <div class="ml-4">
+                      <h4 class="font-medium text-dark">Neurology Seminar</h4>
+                      <p class="text-sm text-gray-500">10:00 AM - 12:00 PM</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="p-3 bg-green-50 rounded-lg">
+                  <div class="flex items-center">
+                    <div class="w-12 h-12 rounded-lg bg-success flex items-center justify-center">
+                      <i class="fas fa-heart text-white text-xl"></i>
+                    </div>
+                    <div class="ml-4">
+                      <h4 class="font-medium text-dark">Cardiology Workshop</h4>
+                      <p class="text-sm text-gray-500">02:00 PM - 04:00 PM</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="p-3 bg-yellow-50 rounded-lg">
+                  <div class="flex items-center">
+                    <div class="w-12 h-12 rounded-lg bg-warning flex items-center justify-center">
+                      <i class="fas fa-baby text-white text-xl"></i>
+                    </div>
+                    <div class="ml-4">
+                      <h4 class="font-medium text-dark">Pediatrics Conference</h4>
+                      <p class="text-sm text-gray-500">09:00 AM - 11:00 AM</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="p-3 bg-purple-50 rounded-lg">
+                  <div class="flex items-center">
+                    <div class="w-12 h-12 rounded-lg bg-purple-500 flex items-center justify-center">
+                      <i class="fas fa-bone text-white text-xl"></i>
+                    </div>
+                    <div class="ml-4">
+                      <h4 class="font-medium text-dark">Orthopedics Meeting</h4>
+                      <p class="text-sm text-gray-500">03:00 PM - 04:30 PM</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
